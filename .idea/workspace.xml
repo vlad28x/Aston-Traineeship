@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc286d0b-b9c3-4a5f-ba95-15117d7f6eb3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/impl/AbstractCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/impl/AbstractCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vlad28x/task1/collection/impl/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vlad28x/task1/collection/impl/ArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,9 +42,114 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.vlad28x.task1.collection.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArrayListTest.deleteElementByValueFail">
+    <configuration name="ArrayListTest.addElementToEndSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aston-traineeship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vlad28x.task1.collection.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
+      <option name="METHOD_NAME" value="addElementToEndSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.deleteElementByValueFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aston-traineeship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vlad28x.task1.collection.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
+      <option name="METHOD_NAME" value="deleteElementByValueFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.deleteElementFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aston-traineeship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vlad28x.task1.collection.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
+      <option name="METHOD_NAME" value="deleteElementFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.deleteElementFromEndSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aston-traineeship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vlad28x.task1.collection.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
+      <option name="METHOD_NAME" value="deleteElementFromEndSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.deleteElementSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aston-traineeship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vlad28x.task1.collection.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
+      <option name="METHOD_NAME" value="deleteElementSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayListTest.deleteElementByValueFail" />
+        <item itemvalue="JUnit.ArrayListTest.addElementToEndSuccess" />
+        <item itemvalue="JUnit.ArrayListTest.deleteElementSuccess" />
+        <item itemvalue="JUnit.ArrayListTest.deleteElementFail" />
+        <item itemvalue="JUnit.ArrayListTest.deleteElementFromEndSuccess" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +158,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661451412164</updated>
-      <workItem from="1661451413918" duration="2433000" />
+      <workItem from="1661451413918" duration="3871000" />
+      <workItem from="1661499897921" duration="8466000" />
     </task>
     <servers />
   </component>
