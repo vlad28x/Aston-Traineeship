@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc286d0b-b9c3-4a5f-ba95-15117d7f6eb3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vlad28x/task1/collection/impl/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vlad28x/task1/collection/impl/ArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/impl/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/impl/ArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +59,20 @@
       <recent name="com.vlad28x.task1.collection.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayListTest.deleteElementByValueFail">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.Main" />
+      <module name="aston-traineeship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vlad28x.task1.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayListTest.addElementToEndSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aston-traineeship" />
       <extension name="coverage">
@@ -108,22 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.deleteElementFromEndSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aston-traineeship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vlad28x.task1.collection.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
-      <option name="METHOD_NAME" value="deleteElementFromEndSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArrayListTest.deleteElementSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aston-traineeship" />
       <extension name="coverage">
@@ -142,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ArrayListTest.deleteElementByValueFail" />
         <item itemvalue="JUnit.ArrayListTest.addElementToEndSuccess" />
         <item itemvalue="JUnit.ArrayListTest.deleteElementSuccess" />
         <item itemvalue="JUnit.ArrayListTest.deleteElementFail" />
-        <item itemvalue="JUnit.ArrayListTest.deleteElementFromEndSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661451412164</updated>
       <workItem from="1661451413918" duration="3871000" />
-      <workItem from="1661499897921" duration="8466000" />
+      <workItem from="1661499897921" duration="16450000" />
     </task>
     <servers />
   </component>
