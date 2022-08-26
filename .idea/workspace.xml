@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc286d0b-b9c3-4a5f-ba95-15117d7f6eb3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/impl/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vlad28x/task1/collection/impl/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vlad28x/task1/collection/impl/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vlad28x/task1/collection/impl/ArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="com.vlad28x.task1.collection.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ArrayListTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.Main" />
       <module name="aston-traineeship" />
@@ -73,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.addElementToEndSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aston-traineeship" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +81,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
       <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
-      <option name="METHOD_NAME" value="addElementToEndSuccess" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.sortOneValueSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aston-traineeship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vlad28x.task1.collection.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
+      <option name="METHOD_NAME" value="sortOneValueSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.deleteElementByValueFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListTest.sortSomeValuesSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aston-traineeship" />
       <extension name="coverage">
         <pattern>
@@ -99,13 +112,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
       <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
-      <option name="METHOD_NAME" value="deleteElementByValueFail" />
+      <option name="METHOD_NAME" value="sortSomeValuesSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.deleteElementFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListTest.sortZeroSizeSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aston-traineeship" />
       <extension name="coverage">
         <pattern>
@@ -115,23 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
       <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
-      <option name="METHOD_NAME" value="deleteElementFail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListTest.deleteElementSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aston-traineeship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vlad28x.task1.collection.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vlad28x.task1.collection.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.vlad28x.task1.collection.impl.ArrayListTest" />
-      <option name="METHOD_NAME" value="deleteElementSuccess" />
+      <option name="METHOD_NAME" value="sortZeroSizeSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.ArrayListTest.sortSomeValuesSuccess" />
+        <item itemvalue="JUnit.ArrayListTest.sortOneValueSuccess" />
+        <item itemvalue="JUnit.ArrayListTest.sortZeroSizeSuccess" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ArrayListTest.deleteElementByValueFail" />
-        <item itemvalue="JUnit.ArrayListTest.addElementToEndSuccess" />
-        <item itemvalue="JUnit.ArrayListTest.deleteElementSuccess" />
-        <item itemvalue="JUnit.ArrayListTest.deleteElementFail" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661451412164</updated>
       <workItem from="1661451413918" duration="3871000" />
-      <workItem from="1661499897921" duration="16450000" />
+      <workItem from="1661499897921" duration="16869000" />
     </task>
     <servers />
   </component>

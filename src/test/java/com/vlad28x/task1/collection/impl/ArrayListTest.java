@@ -2,9 +2,13 @@ package com.vlad28x.task1.collection.impl;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Comparator;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class ArrayListTest {
+
+    private final Comparator<Integer> comparator = Comparator.comparingInt(a -> a);
 
     @Test
     void constructorCapacitySuccess() {
@@ -174,6 +178,30 @@ class ArrayListTest {
         arrayList.add(2);
         arrayList.add(5);
         assertThrows(IllegalArgumentException.class, () -> arrayList.delete(3));
+    }
+
+    @Test
+    void sortZeroSizeSuccess() {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        assertDoesNotThrow(() -> arrayList.sort(comparator));
+    }
+
+    @Test
+    void sortOneValueSuccess() {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(777);
+        assertDoesNotThrow(() -> arrayList.sort(comparator));
+    }
+
+    @Test
+    void sortSomeValuesSuccess() {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(777);
+        arrayList.add(-1);
+        arrayList.add(0);
+        arrayList.add(77);
+        arrayList.sort(comparator);
+        assertEquals("[-1, 0, 77, 777]", arrayList.toString());
     }
 
 }
