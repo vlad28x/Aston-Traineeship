@@ -5,7 +5,6 @@ import com.vlad28x.task1.collection.List;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.ConcurrentModificationException;
 import java.util.Objects;
 
 public class ArrayList<T> extends AbstractCollection<T> implements List<T> {
