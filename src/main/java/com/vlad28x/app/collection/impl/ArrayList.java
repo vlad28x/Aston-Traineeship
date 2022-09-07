@@ -1,7 +1,7 @@
-package com.vlad28x.task1.collection.impl;
+package com.vlad28x.app.collection.impl;
 
 
-import com.vlad28x.task1.collection.List;
+import com.vlad28x.app.collection.List;
 
 import java.util.Arrays;
 import java.util.Comparator;

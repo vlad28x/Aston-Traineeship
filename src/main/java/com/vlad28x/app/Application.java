@@ -1,6 +1,6 @@
-package com.vlad28x.task2;
+package com.vlad28x.app;
 
-import com.vlad28x.task2.config.ApplicationConfig;
+import com.vlad28x.app.config.ApplicationConfig;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

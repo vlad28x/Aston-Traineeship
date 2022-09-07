@@ -1,7 +1,7 @@
-package com.vlad28x.task1.collection.impl;
+package com.vlad28x.app.collection.impl;
 
 
-import com.vlad28x.task1.collection.Collection;
+import com.vlad28x.app.collection.Collection;
 
 public abstract class AbstractCollection<T> implements Collection<T> {
 

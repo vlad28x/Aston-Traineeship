@@ -1,5 +1,6 @@
-package com.vlad28x.task1.collection.impl;
+package com.vlad28x.app.collection.impl;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Comparator;
@@ -12,7 +13,7 @@ class ArrayListTest {
 
     @Test
     void constructorCapacitySuccess() {
-        assertDoesNotThrow(() -> new ArrayList<>(32));
+        Assertions.assertDoesNotThrow(() -> new ArrayList<>(32));
     }
 
     @Test
@@ -22,7 +23,7 @@ class ArrayListTest {
 
     @Test
     void constructorZeroCapacitySuccess() {
-        assertDoesNotThrow(() -> new ArrayList<>(0));
+        Assertions.assertDoesNotThrow(() -> new ArrayList<>(0));
     }
 
     @Test

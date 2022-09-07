@@ -1,4 +1,4 @@
-package com.vlad28x.task2.controller;
+package com.vlad28x.app.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

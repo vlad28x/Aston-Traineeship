@@ -1,4 +1,4 @@
-package com.vlad28x.task1.collection;
+package com.vlad28x.app.collection;
 
 import java.util.Comparator;
 

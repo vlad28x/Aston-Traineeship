@@ -1,4 +1,4 @@
-package com.vlad28x.task2.config;
+package com.vlad28x.app.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,7 +14,7 @@ import java.util.List;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.vlad28x.task2")
+@ComponentScan(basePackages = "com.vlad28x.app")
 public class ApplicationConfig implements WebMvcConfigurer {
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
