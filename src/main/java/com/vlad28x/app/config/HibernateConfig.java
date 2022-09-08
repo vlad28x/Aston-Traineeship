@@ -1,6 +1,11 @@
 package com.vlad28x.app.config;
 
+import com.vlad28x.app.entity.Customer;
 import com.vlad28x.app.entity.Employee;
+import com.vlad28x.app.entity.Project;
+import com.vlad28x.app.entity.User;
+import org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy;
+import org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
@@ -23,7 +28,11 @@ public class HibernateConfig {
     EntityManagerFactory entityManagerFactory() {
         org.hibernate.cfg.Configuration configuration = new org.hibernate.cfg.Configuration();
         configuration.addProperties(hibernateProperties());
+        configuration.addAnnotatedClass(User.class);
         configuration.addAnnotatedClass(Employee.class);
+        configuration.addAnnotatedClass(Customer.class);
+        configuration.addAnnotatedClass(Project.class);
+        configuration.setPhysicalNamingStrategy(new CamelCaseToUnderscoresNamingStrategy());
         return configuration.buildSessionFactory();
     }
 

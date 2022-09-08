@@ -4,19 +4,20 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
+import java.io.Serializable;
 
 @MappedSuperclass
-public class AbstractEntity {
+public abstract class AbstractEntity<T extends Serializable> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private T id;
 
-    public Long getId() {
+    public T getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(T id) {
         this.id = id;
     }
 }
