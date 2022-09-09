@@ -3,6 +3,7 @@ package com.vlad28x.app.controller;
 
 import com.vlad28x.app.dto.CustomerRequestDto;
 import com.vlad28x.app.dto.CustomerResponseDto;
+import com.vlad28x.app.dto.ProjectResponseDto;
 import com.vlad28x.app.service.CustomerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -44,6 +45,11 @@ public class CustomerController {
     @DeleteMapping("/{id}")
     public void deleteCustomer(@PathVariable Long id) {
         customerService.delete(id);
+    }
+
+    @PatchMapping("/pay/{customerId}/{projectId}")
+    public ResponseEntity<ProjectResponseDto> payProject(@PathVariable Long customerId, @PathVariable Long projectId) {
+        return ResponseEntity.ok(customerService.payProject(customerId, projectId));
     }
 
 }

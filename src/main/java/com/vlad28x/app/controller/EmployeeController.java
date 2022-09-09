@@ -45,5 +45,9 @@ public class EmployeeController {
         employeeService.delete(id);
     }
 
+    @GetMapping("/developers")
+    public ResponseEntity<List<EmployeeResponseDto>> getAllDevelopers() {
+        return ResponseEntity.ok(employeeService.getAllDevelopers());
+    }
 
 }

@@ -53,4 +53,10 @@ public class EmployeeServiceImpl implements EmployeeService {
     public void delete(Long id) {
         employeeRepository.delete(id);
     }
+
+    @Override
+    public List<EmployeeResponseDto> getAllDevelopers() {
+        return employeeRepository.findDevelopers().stream()
+                .map(EmployeeMapper::employeeToEmployeeResponseDto).collect(Collectors.toList());
+    }
 }

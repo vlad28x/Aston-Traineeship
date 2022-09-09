@@ -12,12 +12,12 @@ import java.util.Optional;
 
 public abstract class AbstractRepository<K extends Serializable, E extends AbstractEntity<K>> implements Repository<K, E> {
 
-    private final Class<E> clazz;
+    protected final Class<E> clazz;
 
     @PersistenceContext
-    private EntityManager entityManager;
+    protected EntityManager entityManager;
 
-    protected AbstractRepository(Class<E> clazz) {
+    public AbstractRepository(Class<E> clazz) {
         this.clazz = clazz;
     }
 
