@@ -10,7 +10,7 @@ public interface Repository<K extends Serializable, E extends AbstractEntity<K>>
 
     E save(E entity);
 
-    void update(E entity);
+    E update(E entity);
 
     void delete(K id);
 

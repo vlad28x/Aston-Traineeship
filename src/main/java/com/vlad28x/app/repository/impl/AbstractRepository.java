@@ -34,8 +34,8 @@ public abstract class AbstractRepository<K extends Serializable, E extends Abstr
     }
 
     @Override
-    public void update(E entity) {
-        entityManager.merge(entity);
+    public E update(E entity) {
+        return entityManager.merge(entity);
     }
 
     @Override

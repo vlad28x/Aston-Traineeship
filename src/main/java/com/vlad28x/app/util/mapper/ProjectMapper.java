@@ -11,7 +11,7 @@ public final class ProjectMapper {
         throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
     }
 
-    public Project projectRequestDtoToProject(ProjectRequestDto dto) {
+    public static Project projectRequestDtoToProject(ProjectRequestDto dto) {
         Project project = new Project();
         if (dto.getCustomerId() != null) project.setCustomer(new Customer(dto.getCustomerId()));
         project.setName(dto.getName());
@@ -20,7 +20,7 @@ public final class ProjectMapper {
         return project;
     }
 
-    public ProjectResponseDto projectToProjectResponseDto(Project project) {
+    public static ProjectResponseDto projectToProjectResponseDto(Project project) {
         ProjectResponseDto dto = new ProjectResponseDto();
         dto.setId(project.getId());
         if (project.getCustomer() != null) dto.setCustomerId(project.getCustomer().getId());
