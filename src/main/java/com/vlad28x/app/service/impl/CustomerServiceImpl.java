@@ -7,13 +7,14 @@ import com.vlad28x.app.exception.NotFoundException;
 import com.vlad28x.app.repository.impl.CustomerRepositoryImpl;
 import com.vlad28x.app.service.CustomerService;
 import com.vlad28x.app.util.mapper.CustomerMapper;
-import com.vlad28x.app.util.mapper.UserMapper;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Transactional
 public class CustomerServiceImpl implements CustomerService {
 
     private final CustomerRepositoryImpl customerRepository;

@@ -7,13 +7,14 @@ import com.vlad28x.app.exception.NotFoundException;
 import com.vlad28x.app.repository.impl.EmployeeRepositoryImpl;
 import com.vlad28x.app.service.EmployeeService;
 import com.vlad28x.app.util.mapper.EmployeeMapper;
-import com.vlad28x.app.util.mapper.UserMapper;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Transactional
 public class EmployeeServiceImpl implements EmployeeService {
 
     private final EmployeeRepositoryImpl employeeRepository;

@@ -1,11 +1,14 @@
 package com.vlad28x.app.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.time.LocalDate;
 
 public class ProjectRequestDto {
 
     private String name;
     private Long payment;
+    @JsonFormat(pattern="yyyy-MM-dd")
     private LocalDate startDate;
     private Long customerId;
 

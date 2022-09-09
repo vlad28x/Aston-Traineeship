@@ -1,5 +1,6 @@
 package com.vlad28x.app.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.vlad28x.app.entity.enums.Position;
 
 import java.time.LocalDate;
@@ -8,6 +9,7 @@ public class EmployeeResponseDto {
 
     private Long id;
     private Position position;
+    @JsonFormat(pattern="yyyy-MM-dd")
     private LocalDate hireDate;
 
     public Long getId() {

@@ -2,8 +2,6 @@ package com.vlad28x.app.service;
 
 import com.vlad28x.app.dto.CustomerRequestDto;
 import com.vlad28x.app.dto.CustomerResponseDto;
-import com.vlad28x.app.dto.UserRequestDto;
-import com.vlad28x.app.dto.UserResponseDto;
 
 import java.util.List;
 

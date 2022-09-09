@@ -3,18 +3,18 @@ package com.vlad28x.app.service.impl;
 import com.vlad28x.app.dto.ProjectRequestDto;
 import com.vlad28x.app.dto.ProjectResponseDto;
 import com.vlad28x.app.entity.Project;
-import com.vlad28x.app.entity.User;
 import com.vlad28x.app.exception.NotFoundException;
 import com.vlad28x.app.repository.impl.ProjectRepositoryImpl;
 import com.vlad28x.app.service.ProjectService;
 import com.vlad28x.app.util.mapper.ProjectMapper;
-import com.vlad28x.app.util.mapper.UserMapper;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Transactional
 public class ProjectServiceImpl implements ProjectService {
 
     private final ProjectRepositoryImpl projectRepository;

@@ -1,7 +1,5 @@
 package com.vlad28x.app.service;
 
-import com.vlad28x.app.dto.CustomerRequestDto;
-import com.vlad28x.app.dto.CustomerResponseDto;
 import com.vlad28x.app.dto.EmployeeRequestDto;
 import com.vlad28x.app.dto.EmployeeResponseDto;
 
