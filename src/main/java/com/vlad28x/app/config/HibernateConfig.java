@@ -1,5 +1,6 @@
 package com.vlad28x.app.config;
 
+import liquibase.integration.spring.SpringLiquibase;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy;
 import org.springframework.context.annotation.Bean;
@@ -24,6 +25,14 @@ public class HibernateConfig {
 
     public HibernateConfig(Environment env) {
         this.env = env;
+    }
+
+    @Bean
+    public SpringLiquibase liquibase() {
+        SpringLiquibase liquibase = new SpringLiquibase();
+        liquibase.setChangeLog("classpath:/db/changelog.xml");
+        liquibase.setDataSource(dataSource());
+        return liquibase;
     }
 
     @Bean

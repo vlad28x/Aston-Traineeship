@@ -2,6 +2,8 @@ package com.vlad28x.app.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import liquibase.integration.spring.SpringLiquibase;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
@@ -19,6 +21,7 @@ import java.util.List;
 @EnableWebMvc
 @ComponentScan(basePackages = "com.vlad28x.app")
 public class ApplicationConfig implements WebMvcConfigurer {
+
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
         MappingJackson2HttpMessageConverter converter = new MappingJackson2HttpMessageConverter();
