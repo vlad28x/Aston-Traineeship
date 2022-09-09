@@ -6,8 +6,17 @@ import java.time.LocalDate;
 
 public class EmployeeRequestDto {
 
+    private Long id;
     private Position position;
     private LocalDate hireDate;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public Position getPosition() {
         return position;

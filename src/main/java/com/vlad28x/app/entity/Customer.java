@@ -17,6 +17,13 @@ public class Customer extends AbstractEntity<Long> {
     @OneToMany(mappedBy = "customer")
     private List<Project> projects = new ArrayList<>();
 
+    public Customer() {
+    }
+
+    public Customer(Long id) {
+        super(id);
+    }
+
     public Long getAccount() {
         return account;
     }

@@ -13,6 +13,13 @@ public class User extends AbstractEntity<Long> {
     private String firstName;
     private String lastName;
 
+    public User() {
+    }
+
+    public User(Long id) {
+        super(id);
+    }
+
     public String getUsername() {
         return username;
     }
