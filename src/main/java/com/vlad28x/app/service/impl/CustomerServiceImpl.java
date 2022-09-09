@@ -67,7 +67,8 @@ public class CustomerServiceImpl implements CustomerService {
                 .orElseThrow(() -> new NotFoundException(String.format("Customer with ID %s not found", customerId)));
         Project project = projectRepository.findById(projectId)
                 .orElseThrow(() -> new NotFoundException(String.format("Project with ID %s not found", projectId)));
-        if (project.getCustomer().getId() != customerId) throw new BadRequestException(String.format("The customer with ID %s doesn't have the project with ID %s", customerId, projectId));
+        if (project.getCustomer().getId() != customerId)
+            throw new BadRequestException(String.format("The customer with ID %s doesn't have the project with ID %s", customerId, projectId));
         Long payment = project.getPayment();
         Long account = customer.getAccount();
         if (payment <= account) {

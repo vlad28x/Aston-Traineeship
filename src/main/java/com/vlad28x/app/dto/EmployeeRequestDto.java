@@ -9,7 +9,7 @@ public class EmployeeRequestDto {
 
     private Long id;
     private Position position;
-    @JsonFormat(pattern="yyyy-MM-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate hireDate;
 
     public Long getId() {

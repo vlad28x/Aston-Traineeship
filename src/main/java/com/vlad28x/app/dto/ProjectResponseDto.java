@@ -9,7 +9,7 @@ public class ProjectResponseDto {
     private Long id;
     private String name;
     private Long payment;
-    @JsonFormat(pattern="yyyy-MM-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate startDate;
     private Long customerId;
 

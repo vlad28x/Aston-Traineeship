@@ -4,8 +4,6 @@ import com.vlad28x.app.entity.Employee;
 import com.vlad28x.app.entity.enums.Position;
 import org.springframework.stereotype.Repository;
 
-
-import javax.persistence.Query;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
